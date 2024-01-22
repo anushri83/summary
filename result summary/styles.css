@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    padding-top: 10rem ;
+    justify-content: center;
+}
+.container{
+    background-color: #6100ff;
+    border-radius: 8%;
+    width: 17rem;
+    height:23rem;
+    text-align: center;
+    color: white;
+}
+
+.circle{
+    border-radius: 50%;
+    background: linear-gradient(#4d03c6, #6100ff);
+    padding-top: .5rem;
+    width: 8.4rem;
+    height: 8.4rem;
+
+}
+.section{
+    background-color: white;
+    width: 17rem;
+    height:23rem;
+    padding-left: 2rem;
+}
+.btn{
+   border-radius: 8px;
+   border: none;
+   margin: 10px;
+   padding: 0.7rem .8rem;
+   width: 80%;
+   font-weight: bold;
+}
+.one{
+    color:  hsl(0, 100%, 67%) ;
+    background-color:  hsl(0, 80%, 90% );
+}
+.two{
+    color: hsl(39, 100%, 56%) ; 
+    background-color: hsl(39, 70%, 90%);
+}
+.three{
+    color: hsl(166, 100%, 37%) ;
+     background-color: hsl(165, 57%, 92%);
+}
+.four{
+    color: hsl(234, 85%, 45%) ; 
+     background-color: hsl(232, 78%, 91%);
+}
+
+.img{
+    margin-right: 10px;
+}
+.continue{
+     border-radius: 20px;
+     background-color: #3a3f43;
+     color: white;
+     cursor: pointer;
+}
+.continue:hover{
+    background-color: black;
+}
+@media screen and (max-width:375px) {
+    .main{
+        display: inline-block;
+        justify-content: center;
+    }
+    .container{
+        margin-top: -180px;
+    }
+
+    
+}
